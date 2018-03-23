@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <title>Web Audio API</title>
+</head>
+<body>
+<h1>Welcome to the Web Audio API</h1>
+<script>
+
+
+    function cargaSonido (sonido) {
+        var context = new AudioContext();
+        var request = new XMLHttpRequest();
+        request.open('GET', sonido, true);
+        request.responseType = 'arraybuffer';
+        request.onload = function () {
+            var undecodedAudio = request.response;
+            context.decodeAudioData(undecodedAudio, function (buffer) {
+                var sourceBuffer = context.createBufferSource();
+                sourceBuffer.buffer = buffer;
+                sourceBuffer.connect(context.destination);
+                sourceBuffer.start(context.currentTime);
+            });
+        };
+        request.send();
+    }
+
+    cargaSonido('sound/ok1.mp3');
+    cargaSonido('sound/ok2.mp3');
+    cargaSonido('sound/ok3.mp3');
+    cargaSonido('sound/ok4.mp3');
+    cargaSonido('sound/ok5.mp3');
+
+
+
+</script>
+</body>
+</html>
