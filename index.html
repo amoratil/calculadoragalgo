@@ -2,6 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilow3c.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <style>
+        body, html {
+            height: 100%;
+            font-family: "Inconsolata", sans-serif;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .bgimg {
+            background-position: center;
+            background-size: cover;
+            background-color: aquamarine;
+            min-height: 75%;
+        }
+        .menu {
+            display: none;
+        }
+    </style>
+
     <title>Calculadora mental</title>
 </head>
 <body>
@@ -13,7 +34,8 @@
     <visualizaciontiempo/>
 </div>
 
-<script src="node_modules/vue/dist/vue.js"></script>
+<script src="audio.js"></script>
+<script src="vue.min.js"></script>
 <script src="app.js"></script>
 
 </body>

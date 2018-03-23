@@ -9,9 +9,10 @@ Vue.component ('visualizaciontiempo',{
 });
 
 Vue.component('visualizacioncalculadora', {
-    template: '<div><div>Puntos: {{puntos}}. Quedan {{queda}} segundos.</div>' +
-    '<h3><span class="primero">{{operador1}}</span><span class="operacion">{{operacion}}</span><span class="segundo">{{operador2}}</span>' +
-    '&nbsp; &nbsp; <input ref="resp" v-model="respuesta"></div></h3>',
+    template: '<div><div>Puntos: <strong>{{puntos}}</strong>. Quedan {{queda}} segundos.</div>' +
+    '<div><h3><span class="primero">{{operador1}}</span><span class="operacion">{{operacion}}</span><span class="segundo">{{operador2}}</span>' +
+    '&nbsp; &nbsp; ' +
+    '<input type="tel" min="0" max="10000" ref="resp" v-model="respuesta"></div></h3></div></div>',
     data: function(){
         return {
             contador:0,
@@ -43,7 +44,22 @@ Vue.component('visualizacioncalculadora', {
 
         this.timer = setInterval(this.updateTiempo,200);
         this.avanzaPregunta();
-        this.audiocontext = new AudioContext();
+
+
+        this.audioMgr = new AudioManager({
+            ok1:      { filename: "sound/ok1.mp3",      samples: 1 },
+            ok2:      { filename: "sound/ok2.mp3",      samples: 1 },
+            ok3:      { filename: "sound/ok3.mp3",      samples: 1 },
+            ok4:      { filename: "sound/ok4.mp3",      samples: 1 },
+            ok5:      { filename: "sound/ok5.mp3",      samples: 1 },
+            fail1:    { filename: "sound/fail1.mp3",    samples: 1 },
+            fail2:    { filename: "sound/fail2.mp3",    samples: 1 },
+            fail3:    { filename: "sound/fail3.mp3",    samples: 1 },
+            fail4:    { filename: "sound/fail4.mp3",    samples: 1 },
+            fail5:    { filename: "sound/fail5.mp3",    samples: 1 },
+            fail6:    { filename: "sound/fail6.mp3",    samples: 1 },
+
+     });
 
 
     },
@@ -108,11 +124,53 @@ Vue.component('visualizacioncalculadora', {
 
         },
         sonidoOk: function(){
-            this.cargaSonido('sound/ok1.mp3');
+
+            switch(Math.floor(Math.random()*5)) {
+                case 0:
+                    this.audioMgr.playSound('ok1');
+                    break;
+                case 1:
+                    this.audioMgr.playSound('ok2');
+                    break;
+                case 2:
+                    this.audioMgr.playSound('ok3');
+                    break;
+                case 3:
+                    this.audioMgr.playSound('ok4');
+                    break;
+                case 4:
+                    this.audioMgr.playSound('ok5');
+                    break;
+            }
+
+            //this.audioMgr.playSound('ok2');
+            //this.cargaSonido('sound/ok1.mp3');
 
         },
         sonidoFallo: function(){
-            this.cargaSonido('sound/fail1.mp3');
+            switch(Math.floor(Math.random()*6)) {
+                case 0:
+                    this.audioMgr.playSound('fail1');
+                    break;
+                case 1:
+                    this.audioMgr.playSound('fail2');
+                    break;
+                case 2:
+                    this.audioMgr.playSound('fail3');
+                    break;
+                case 3:
+                    this.audioMgr.playSound('fail4');
+                    break;
+                case 4:
+                    this.audioMgr.playSound('fail5');
+                    break;
+                case 5:
+                    this.audioMgr.playSound('fail6');
+                    break;
+            }
+            //this.audioMgr.playSound('fail3');
+
+            //this.cargaSonido('sound/fail1.mp3');
 
         },
         cargaSonido: function cargaSonido (sonido) {
