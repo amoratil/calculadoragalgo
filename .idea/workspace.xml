@@ -2,235 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eadef4b0-55cc-48bf-b53e-b2f5dc14684d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/calculadoragalgo.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/dist/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.esm.browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.esm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.esm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/codegen/events.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/codegen/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/create-compiler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/directives/bind.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/directives/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/directives/model.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/directives/on.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/error-detector.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/helpers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/optimizer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/entity-decoder.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/filter-parser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/html-parser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/text-parser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/to-function.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/components/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/components/keep-alive.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/assets.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/extend.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/mixin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/use.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/events.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/init.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/inject.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/lifecycle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/proxy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/bind-object-listeners.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/bind-object-props.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/check-keycodes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/render-list.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/render-slot.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/render-static.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/resolve-filter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/resolve-slots.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/state.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/array.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/dep.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/scheduler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/traverse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/watcher.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/debug.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/env.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/error.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/lang.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/next-tick.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/options.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/perf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/props.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/create-component.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/create-element.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/create-functional-component.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/extract-props.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/get-first-component-child.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/is-async-placeholder.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/merge-hook.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/normalize-children.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/resolve-async-component.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/update-listeners.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/modules/directives.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/modules/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/modules/ref.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/patch.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/vnode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/directives/html.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/directives/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/directives/model.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/directives/text.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/modules/class.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/modules/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/modules/model.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/modules/style.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/options.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/entry-compiler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/entry-runtime-with-compiler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/entry-runtime.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/entry-server-basic-renderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/entry-server-renderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/class-util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/components/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/components/transition-group.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/components/transition.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/directives/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/directives/model.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/directives/show.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/attrs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/class.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/events.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/style.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/transition.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/node-ops.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/patch.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/transition-util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/compiler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/directives/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/directives/model.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/directives/show.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/attrs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/class.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/dom-props.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/style.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/attrs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/class.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/compat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/element.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/style.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/directives/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/directives/model.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/append.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/class.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/props.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component-root.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/recycle-list.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/text.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-bind.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-for.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-if.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-on.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-once.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/style.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/entry-compiler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/entry-framework.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/entry-runtime-factory.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/components/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/components/richtext.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/components/transition-group.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/components/transition.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/directives/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/attrs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/class.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/events.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/style.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/transition.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/node-ops.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/patch.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/recycle-list/render-component-template.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/recycle-list/virtual-component.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/text-node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/util/element.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/util/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/util/parser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/bundle-renderer/create-bundle-renderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/bundle-renderer/create-bundle-runner.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/bundle-renderer/source-map-support.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/create-basic-renderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/create-renderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/optimizing-compiler/codegen.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/optimizing-compiler/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/optimizing-compiler/modules.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/optimizing-compiler/optimizer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/optimizing-compiler/runtime-helpers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/render-context.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/render-stream.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/render.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/template-renderer/create-async-file-mapper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/template-renderer/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/template-renderer/parse-template.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/template-renderer/template-stream.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/webpack-plugin/client.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/webpack-plugin/server.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/webpack-plugin/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/server/write.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/sfc/parser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/shared/constants.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/src/shared/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/types/index.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/types/options.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/types/plugin.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/types/vnode.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/types/vue.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sound/fail1.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sound/fail2.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sound/fail3.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sound/fail4.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sound/fail5.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sound/fail6.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sound/ok1.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sound/ok2.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sound/ok3.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sound/ok4.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sound/ok5.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testsound.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/visualizacioncalculadora.vue" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -254,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -264,14 +37,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="109" column="48" lean-forward="true" selection-start-line="109" selection-start-column="48" selection-end-line="109" selection-end-column="48" />
+            <state relative-caret-position="104">
+              <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
               <folding>
-                <marker date="1521838132082" expanded="true" signature="437:443" ph=" " />
-                <marker date="1521838132082" expanded="true" signature="444:450" ph=" " />
+                <marker date="1521840588608" expanded="true" signature="437:443" ph=" " />
+                <marker date="1521840588608" expanded="true" signature="444:450" ph=" " />
               </folding>
             </state>
           </provider>
@@ -413,16 +186,15 @@
       <option name="presentableId" value="Default" />
       <updated>1521825818446</updated>
       <workItem from="1521825819688" duration="147000" />
-      <workItem from="1521826215773" duration="11306000" />
+      <workItem from="1521826215773" duration="12543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11453000" />
+    <option name="totallyTimeSpent" value="12690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -432,9 +204,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919848" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919848" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39980915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39980915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -502,14 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testsound.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -520,12 +284,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="109" column="48" lean-forward="true" selection-start-line="109" selection-start-column="48" selection-end-line="109" selection-end-column="48" />
+        <state relative-caret-position="104">
+          <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
           <folding>
-            <marker date="1521838132082" expanded="true" signature="437:443" ph=" " />
-            <marker date="1521838132082" expanded="true" signature="444:450" ph=" " />
+            <marker date="1521840588608" expanded="true" signature="437:443" ph=" " />
+            <marker date="1521840588608" expanded="true" signature="444:450" ph=" " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

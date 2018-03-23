@@ -60,7 +60,7 @@ Vue.component('visualizacioncalculadora', {
         },
         avanzaPregunta: function(){
             var maxTiempoSegundos=20;
-            switch (Math.floor(Math.random()*3)){
+            switch (Math.floor(Math.random()*4)){
                 case 0: //+
                     this.operador1 = Number(Math.floor(Math.random()*10*(this.puntos>1000?10:1)));
                     this.operador2 = Number(Math.floor(Math.random()*10*(this.puntos>1000?10:1)));
@@ -88,6 +88,11 @@ Vue.component('visualizacioncalculadora', {
                     maxTiempoSegundos = ((this.operador1+this.operador2)>20)?20:this.operador1+this.operador2;
                     break;
                 case 3: // /
+                    this.operador1 = Number(Math.floor(Math.random()*11));
+                    this.operador2 = Number(Math.floor(Math.random()*11));
+                    this.resultado = this.operador1 * this.operador2;
+                    this.operacion = "x";
+                    maxTiempoSegundos = ((this.operador1+this.operador2)>20)?20:this.operador1+this.operador2;
                     break;
             }
 
