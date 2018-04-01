@@ -10,9 +10,12 @@ Vue.component ('visualizaciontiempo',{
 
 Vue.component('visualizacioncalculadora', {
     template: '<div><div>Puntos: <strong>{{puntos}}</strong>. Quedan {{queda}} segundos.</div>' +
+    '<div>Repuestas seguidas: <strong>{{racha}}</strong> (mejor racha: {{rachamax}}).</div>'+
+    '<div>Total operaciones: <strong>{{contador-1}}</strong>. Correctas: <strong>{{correctas}}</strong>. Fallidas: <strong>{{fallidas}}</strong>.</div>'+
     '<div><h3><span class="primero">{{operador1}}</span><span class="operacion">{{operacion}}</span><span class="segundo">{{operador2}}</span>' +
     '&nbsp; &nbsp; ' +
-    '<input type="tel" min="0" max="10000" ref="resp" v-model="respuesta"></div></h3></div></div>',
+    '<input type="tel" min="0" max="10000" ref="resp" v-model="respuesta"></div></h3>' +
+    '<h4 v-show="racha === 0">Último error: {{correccion}}</h4></div></div>',
     data: function(){
         return {
             contador:0,
@@ -23,7 +26,11 @@ Vue.component('visualizacioncalculadora', {
             puntos:0,
             resultado:9,
             racha:0,
-            queda:0
+            rachamax:0,
+            queda:0,
+            correccion:'',
+            correctas:0,
+            fallidas:0
         }
     },
     watch: {
@@ -32,8 +39,11 @@ Vue.component('visualizacioncalculadora', {
             if (Number(antes)===this.resultado){
                 this.sonidoOk();
                 this.racha++;
+                this.rachamax=(this.racha>this.rachamax)?this.racha:this.rachamax;
                 this.puntos=Math.ceil(this.puntos + this.racha * this.resultado/5);
                 //ahora avanzaríamos en el contador y a ver qué nos toca.
+                this.correccion='';
+                this.correctas++;
                 this.avanzaPregunta();
             }
 
@@ -69,14 +79,16 @@ Vue.component('visualizacioncalculadora', {
             this.$nextTick(function() {this.$refs.resp.focus()})
             this.queda=Math.floor((this.fin-Date.now())/1000);
             if (this.queda < 0) {
+                this.correccion = ""+this.operador1+this.operacion+this.operador2+" = "+this.resultado;
                 this.racha=0;
+                this.fallidas++;
                 this.sonidoFallo();
                 this.avanzaPregunta();
             }
         },
         avanzaPregunta: function(){
             var maxTiempoSegundos=20;
-            switch (Math.floor(Math.random()*4)){
+            switch (Math.floor(Math.random()*2+2)){
                 case 0: //+
                     this.operador1 = Number(Math.floor(Math.random()*10*(this.puntos>1000?10:1)));
                     this.operador2 = Number(Math.floor(Math.random()*10*(this.puntos>1000?10:1)));
@@ -112,11 +124,12 @@ Vue.component('visualizacioncalculadora', {
                     break;
             }
 
-            maxTiempoSegundos=20;
+            maxTiempoSegundos=10;
             //var maxTiempoSegundos = (this.resultado>20)?20:this.resultado;
             this.fin = Date.now()+ 4000 + (maxTiempoSegundos-(this.racha>maxTiempoSegundos?maxTiempoSegundos:this.racha))*1000;
             this.queda=Math.floor((this.fin-Date.now())/1000);
             this.respuesta='';
+            this.contador++;
 
             this.$nextTick(function() {this.$refs.resp.focus()})
 
